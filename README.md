@@ -5,11 +5,11 @@ Os scripts foram produzidos para uso em MySQL Workbench (compatível também com
 
 📌 Conteúdo do Repositório
 Arquivo	Descrição
-01_create_tables.sql	Criação das tabelas do modelo lógico, incluindo PK, FK e restrições.
-02_insert_data.sql	Inserção de dados iniciais (INSERT).
-03_select_queries.sql	Consultas SQL (SELECT) com JOIN, WHERE, ORDER BY etc.
-04_update_data.sql	Comandos UPDATE com condições.
-05_delete_data.sql	Comandos DELETE seguros e condicionais.
+create_tables_01.sql	Criação das tabelas do modelo lógico, incluindo PK, FK e restrições.
+insert_data_02.sql	Inserção de dados iniciais (INSERT).
+select_queries_03.sql	Consultas SQL (SELECT) com JOIN, WHERE, ORDER BY etc.
+update_data_04.sql	Comandos UPDATE com condições.
+delete_data_05.sql	Comandos DELETE seguros e condicionais.
 
 ✅ Estrutura do projeto
 
@@ -217,6 +217,7 @@ JOIN LIVRO L ON EX.livro_id = L.livro_id;
 -- 5. LIMIT e filtro
 SELECT * FROM RESERVA WHERE status = 'Pendente' LIMIT 1;
 ```
+
 📌 update_data_04.sql
 
 ```
@@ -263,7 +264,7 @@ Nome: Patricia Marinho
 
 *Projeto acadêmico desenvolvido para disciplina de Modelagem e Projeto de Banco de Dados.
 
+
 📜 Licença
 
 Este projeto é de uso acadêmico e educacional.
-
