@@ -37,11 +37,11 @@ USE unibook;
 2. Execute os scripts na ordem:
 
 ```
-01_create_tables.sql
-02_insert_data.sql
-03_select_queries.sql  (para testes)
-04_update_data.sql
-05_delete_data.sql
+create_tables_01.sql
+insert_data_02.sql
+select_queries_03.sql  (para testes)
+update_data_04.sql
+delete_data_05.sql
 ```
 3. Certifique-se de que as chaves estrangeiras estão habilitadas:
 
