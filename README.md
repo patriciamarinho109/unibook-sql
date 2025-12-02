@@ -190,7 +190,7 @@ VALUES
 (2, 3, '2024-02-08', 'Pendente');
 ```
 
-3. 📌 03_select_queries.sql
+3. 📌 select_queries_03.sql
 
 ```
 -- 1. Consulta simples
@@ -217,7 +217,7 @@ JOIN LIVRO L ON EX.livro_id = L.livro_id;
 -- 5. LIMIT e filtro
 SELECT * FROM RESERVA WHERE status = 'Pendente' LIMIT 1;
 ```
-📌 04_update_data.sql
+📌 update_data_04.sql
 
 ```
 UPDATE USUARIO
@@ -233,7 +233,7 @@ SET data_devolucao_real = '2024-02-14', status = 'Devolvido'
 WHERE emprestimo_id = 1;
 ```
 
-📌 05_delete_data.sql
+📌 delete_data_05.sql
 
 ```
 DELETE FROM RESERVA
@@ -249,15 +249,18 @@ WHERE livro_id = 1 AND autor_id = 1;
 
 🧰 Tecnologias Utilizadas
 
+```
 - MySQL Workbench
 
 - SQL (DDL + DML)
 
 - GitHub para versionamento e compartilhamento
+```
 
 👤 Autor
 
 Nome: Patricia Marinho
+
 *Projeto acadêmico desenvolvido para disciplina de Modelagem e Projeto de Banco de Dados.
 
 📜 Licença
